@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gabrielly | Jardim das Sereias</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CENÁRIO SUBMARINO -->
+    <div class="ocean-scene">
+
+        <div class="ocean-light"></div>
+        <div class="sun-rays"></div>
+        <div class="water-haze"></div>
+
+        <!-- Jardim distante -->
+        <div class="distant-garden">
+            <div class="coral distant-coral coral-a"></div>
+            <div class="coral distant-coral coral-b"></div>
+            <div class="coral distant-coral coral-c"></div>
+        </div>
+
+        <!-- Plantas marinhas -->
+        <div class="sea-plant plant-left">
+            <i></i><i></i><i></i><i></i><i></i>
+        </div>
+
+        <div class="sea-plant plant-right">
+            <i></i><i></i><i></i><i></i><i></i>
+        </div>
+
+        <div class="sea-plant plant-middle">
+            <i></i><i></i><i></i><i></i>
+        </div>
+
+        <!-- Corais -->
+        <div class="coral coral-left">
+            <i></i><i></i><i></i><i></i>
+        </div>
+
+        <div class="coral coral-right">
+            <i></i><i></i><i></i><i></i>
+        </div>
+
+        <div class="coral coral-front coral-front-left"></div>
+        <div class="coral coral-front coral-front-right"></div>
+
+        <!-- Conchas -->
+        <div class="shell shell-left">
+            <div class="shell-pearl"></div>
+        </div>
+
+        <div class="shell shell-right">
+            <div class="shell-pearl"></div>
+        </div>
+
+        <div class="shell shell-small shell-top"></div>
+        <div class="shell shell-small shell-bottom"></div>
+
+        <!-- Pedras e pérolas -->
+        <div class="rock rock-one"></div>
+        <div class="rock rock-two"></div>
+        <div class="rock rock-three"></div>
+
+        <div class="pearl pearl-a"></div>
+        <div class="pearl pearl-b"></div>
+        <div class="pearl pearl-c"></div>
+        <div class="pearl pearl-d"></div>
+        <div class="pearl pearl-e"></div>
+        <div class="pearl pearl-f"></div>
+
+        <!-- Estrelas-do-mar -->
+        <div class="starfish star-a">✿</div>
+        <div class="starfish star-b">✧</div>
+        <div class="starfish star-c">✿</div>
+
+        <!-- Águas-vivas -->
+        <div class="jellyfish jelly-a">
+            <div class="jelly-cap"></div>
+            <div class="jelly-strings"><i></i><i></i><i></i><i></i></div>
+        </div>
+
+        <div class="jellyfish jelly-b">
+            <div class="jelly-cap"></div>
+            <div class="jelly-strings"><i></i><i></i><i></i><i></i></div>
+        </div>
+
+        <div class="jellyfish jelly-c">
+            <div class="jelly-cap"></div>
+            <div class="jelly-strings"><i></i><i></i><i></i><i></i></div>
+        </div>
+
+        <!-- Peixinhos -->
+        <div class="fish fish-a">🐠</div>
+        <div class="fish fish-b">🐟</div>
+        <div class="fish fish-c">🐠</div>
+
+        <!-- Bolhas -->
+        <div id="bubbles"></div>
+
+        <!-- Brilhos -->
+        <div id="sparkles"></div>
+
+        <!-- Fundo de areia -->
+        <div class="ocean-floor"></div>
+    </div>
+
+    <!-- CABEÇALHO -->
+    <header class="topbar">
+        <a href="#" class="logo">Gabrielly <span>✧</span></a>
+        <span class="top-date">23 · 10 · 2027</span>
+    </header>
+
+    <main>
+
+        <!-- ABERTURA -->
+        <section class="hero">
+            <div class="hero-ornament">✧　❋　✧</div>
+
+            <p class="eyebrow">UM CONVITE VINDO DO FUNDO DO MAR</p>
+
+            <h1>Jardim das<br><em>Sereias</em></h1>
+
+            <div class="title-decoration">
+                <span></span>
+                <i>❋</i>
+                <span></span>
+            </div>
+
+            <p class="hero-text">
+                Entre conchas, pérolas e encantos,<br>
+                existe um lugar especial esperando por você.
+            </p>
+
+            <button class="main-button" id="openInvitation">
+                Mergulhar nessa aventura <span>↓</span>
+            </button>
+
+            <div class="scroll-hint">DESCUBRA O ENCANTO</div>
+        </section>
+
+        <!-- MENSAGEM -->
+        <section class="welcome section-reveal" id="welcome">
+            <p class="eyebrow">UMA CELEBRAÇÃO ESPECIAL</p>
+
+            <h2>O mar está em festa<br>e você faz parte <em>disso!</em></h2>
+
+            <p class="section-text">
+                As sereias estão preparando um encontro cheio de magia,
+                alegria e momentos inesquecíveis. Entre nesse pequeno
+                mundo encantado e venha comemorar esse dia tão especial
+                com a Gabrielly!
+            </p>
+
+            <div class="ornament">✧　❋　✧</div>
+        </section>
+
+        <!-- PÉROLAS -->
+        <section class="pearls-section section-reveal">
+            <p class="eyebrow">SEGREDOS DO OCEANO</p>
+
+            <h2>Uma pérola guarda<br>um <em>segredinho...</em></h2>
+
+            <p class="section-text">
+                Escolha uma das pérolas para descobrir uma mensagem.
+            </p>
+
+            <div class="pearl-collection">
+                <button class="pearl-button" data-message="Sua presença vai deixar essa celebração ainda mais especial!">✧</button>
+                <button class="pearl-button" data-message="Prepare-se para mergulhar em um dia cheio de alegria e diversão!">✧</button>
+                <button class="pearl-button" data-message="O melhor presente será ter você compartilhando esse momento!">✧</button>
+            </div>
+
+            <p id="pearlMessage" class="pearl-message">
+                Toque em uma pérola para revelar seu segredo.
+            </p>
+        </section>
+
+        <!-- EVENTO -->
+        <section class="event-section section-reveal">
+            <p class="eyebrow">GUARDE ESSA DATA</p>
+
+            <h2>Nosso encontro <em>encantado</em></h2>
+
+            <div class="event-card">
+                <div class="card-heading">
+                    <span>UM DIA PARA RECORDAR</span>
+                    <span>✧</span>
+                </div>
+
+                <div class="event-date">
+                    <strong>23</strong>
+                    <div>
+                        <span>OUTUBRO</span>
+                        <span>2027</span>
+                    </div>
+                </div>
+
+                <p class="weekday">SÁBADO</p>
+
+                <div class="card-divider"></div>
+
+                <div class="address">
+                    <span class="address-icon">⌖</span>
+                    <div>
+                        <strong>ONDE A MAGIA VAI ACONTECER</strong>
+                        <p>
+                            R. Turqueza Azul, 363 - Mutinga<br>
+                            Osasco - SP, 06286-100
+                        </p>
+                    </div>
+                </div>
+
+                <a
+                    class="map-button"
+                    href="https://www.google.com/maps/search/?api=1&query=R.+Turqueza+Azul,+363,+Mutinga,+Osasco+-+SP"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Encontrar o caminho ↗
+                </a>
+            </div>
+        </section>
+
+        <!-- CONFIRMAÇÃO -->
+        <section class="rsvp-section section-reveal" id="confirmar">
+            <p class="eyebrow">NOS CONTE UMA COISA...</p>
+
+            <h2>Você vem mergulhar<br>nessa <em>aventura?</em></h2>
+
+            <p class="section-text">
+                Queremos muito saber se poderemos contar com você!
+            </p>
+
+            <form id="rsvpForm" class="rsvp-form">
+
+                <label for="guestName">Como podemos te chamar?</label>
+
+                <input
+                    type="text"
+                    id="guestName"
+                    placeholder="Seu nome"
+                    required
+                >
+
+                <p class="form-question">Você poderá comparecer?</p>
+
+                <label class="radio-option">
+                    <input type="radio" name="attendance" value="Sim, estarei presente!" required>
+                    <span>Sim! Estarei lá! 💙</span>
+                </label>
+
+                <label class="radio-option">
+                    <input type="radio" name="attendance" value="Não poderei comparecer.">
+                    <span>Infelizmente não poderei ir</span>
+                </label>
+
+                <button class="main-button form-button" type="submit">
+                    Enviar minha resposta ✧
+                </button>
+
+            </form>
+
+            <div class="thank-you hidden" id="thankYou">
+                <div class="thank-icon">✧</div>
+                <h3>Que alegria!</h3>
+                <p id="thankYouMessage"></p>
+                <span>Com carinho, Gabrielly 💙</span>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-ornament">✧ ❋ ✧</div>
+        <p>Até o nosso encontro no fundo do mar...</p>
+        <span>GABRIELLY · 2027</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
